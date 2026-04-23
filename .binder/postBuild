@@ -1,0 +1,3 @@
+#!/bin/bash
+set -e
+julia --project=. -e 'import Pkg; Pkg.instantiate(); Pkg.precompile()'
